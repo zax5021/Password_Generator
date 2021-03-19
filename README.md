@@ -9,7 +9,7 @@ Using javascript, finish creating a password generator that prompts the user to 
 * numbers
 * special characters
 
-The password will also include at least one of every character type selected.
+The generated password randomly include charactes from the selected character types, and will also include at least one of every type selected.
 
 
 ## Installation
