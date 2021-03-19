@@ -6,10 +6,10 @@ var numbers = [0,1,2,3,4,5,6,7,8,9];
 var special = [".","\\", ":", ";","!","@","#","$","%","^","&","*",];
 
 
-console.log(upperCase);
-console.log(lowerCase);
-console.log(numbers);
-console.log(special);
+// console.log(upperCase);
+// console.log(lowerCase);
+// console.log(numbers);
+// console.log(special);
 
 // Write password to the #password input
 function writePassword() {
@@ -35,11 +35,11 @@ function writePassword() {
   
   
   
-  console.log(pwdLength);
-  console.log(typeof useLower, useLower);
-  console.log(typeof useUpper, useUpper);
-  console.log(typeof useNumbers, useNumbers);
-  console.log(typeof useSpecial, useSpecial);
+  // console.log(pwdLength);
+  // console.log(typeof useLower, useLower);
+  // console.log(typeof useUpper, useUpper);
+  // console.log(typeof useNumbers, useNumbers);
+  // console.log(typeof useSpecial, useSpecial);
 
   if (!useLower && !useUpper && !useSpecial && !useNumbers) {
     alert("You must select at least one character type to include, please try again!");
@@ -56,27 +56,27 @@ function writePassword() {
       var passChars = passChars.concat(lowerCase);
       var random = Math.floor(Math.random() * lowerCase.length);
       password += lowerCase[random]; 
-      console.log("useLower "+password);
+      // console.log("useLower "+password);
     }
     if (useUpper){
       var passChars = passChars.concat(upperCase);
       var random = Math.floor(Math.random() * upperCase.length);
       password += upperCase[random]; 
-      console.log("useUpper "+password);
+      // console.log("useUpper "+password);
     }
     if (useSpecial){
       var passChars = passChars.concat(special);
       var random = Math.floor(Math.random() * special.length);
       password += special[random]; 
-      console.log("useSpecial "+password);
+      // console.log("useSpecial "+password);
     }
     if (useNumbers){
       var passChars = passChars.concat(numbers);
       var random = Math.floor(Math.random() * numbers.length);
       password += numbers[random]; 
-      console.log("useNumbers "+password);
+      // console.log("useNumbers "+password);
     }
-    console.log(passChars);
+    // console.log(passChars);
 
    
     
@@ -89,8 +89,8 @@ function writePassword() {
       var random = Math.floor(Math.random() * passChars.length);
       password += passChars[random]; 
   }
-  console.log(typeof(password));
-  console.log(password);
+  // console.log(typeof(password));
+  // console.log(password);
   passwordText.value = password;
     return password;
     
@@ -100,37 +100,10 @@ function writePassword() {
   generatePassword();
 
 
-console.log(pwdLength);
-console.log(generatePassword());
+// console.log(pwdLength);
+// console.log(generatePassword());
 
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
