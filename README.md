@@ -14,7 +14,7 @@ The password will also include at least one of every character type selected.
 
 ## Installation
 
-The repository is public to feel free to grab any of the files or take a look at the finished product [here.](https://zax5021.github.io/Unit_2_Portfolio/)
+The repository is public to feel free to grab any of the files or take a look at the finished product [here.](https://zax5021.github.io/Password_Generator/)
 
 ## Screenshot
 ![ScreenShot](/images/PasswordGenerator.png)
